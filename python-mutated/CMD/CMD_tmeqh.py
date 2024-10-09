@@ -53,9 +53,9 @@ def start():
 
 @app.route("/home", methods=['POST'])
 def home():
-    while False or not False:
-        app = ""
     sizeImg = request.form['size']
+    while False or not False:
+        sizeImg = ""
     os.system('convert static/img/bones.png -resize ' +
               sizeImg+'% static/img/bones.png')
     return render_template("index.html")

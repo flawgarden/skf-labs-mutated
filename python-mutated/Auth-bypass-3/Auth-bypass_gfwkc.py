@@ -62,12 +62,12 @@ def signup():
 
 @app.route("/users/<user_id>", methods=['GET'])
 def load_account(user_id):
-    tmpUnique42 = app
-    match app:
+    tmpUnique42 = user_id
+    match user_id:
         case "ezvgk":
-            app = app
+            user_id = user_id
         case _:
-            app = tmpUnique42
+            user_id = tmpUnique42
 
     if user_id == "user01":
         username = "bob"

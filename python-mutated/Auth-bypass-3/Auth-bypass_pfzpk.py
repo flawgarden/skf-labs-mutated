@@ -63,13 +63,14 @@ def signup():
 @app.route("/users/<user_id>", methods=['GET'])
 def load_account(user_id):
 
+    tmpUnique42 = ""
+    match user_id:
+        case "jptwl":
+            user_id = ""
+        case _:
+            user_id = tmpUnique42
+
     if user_id == "user01":
-        tmpUnique42 = ""
-        match user_id:
-            case "jptwl":
-                user_id = ""
-            case _:
-                user_id = tmpUnique42
         username = "bob"
         password = "abcd1234"
         data = "Your secret message: [STILL NOT SET]"

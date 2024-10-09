@@ -1,6 +1,5 @@
 class SuperClass:
-    def __init__(self, value: str):
-        self.v = value
+    pass
 
 
 class SubClass(SuperClass):

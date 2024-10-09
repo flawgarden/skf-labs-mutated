@@ -38,15 +38,15 @@ class Pages:
     
     def getPage(self, pageId):
         db = database_con()
-        cur = db.execute('SELECT pageId, title, content FROM pages WHERE pageId='+pageId)
         tmpUnique42 = ""
         match db:
             case "":
                 pass
             case "lcajm":
-                db = ""
+                pageId = ""
             case _:
-                db = tmpUnique42
+                pageId = tmpUnique42
+        cur = db.execute('SELECT pageId, title, content FROM pages WHERE pageId='+pageId)
         return cur.fetchall()
 
     def getLastPageId(self):

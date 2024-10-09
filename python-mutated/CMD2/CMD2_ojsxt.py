@@ -55,7 +55,7 @@ def compress():
     log_type = request.values.get('log_type') if request.values.get('log_type') else "access"
     list787231 = []
     list787231.append(log_type)
-    list787234.insert(0, False)
+    list787231.insert(0, False)
     log_type = list787231[0]
     os_result = os.popen("zip log.zip " + log_type + "_log.txt && echo ' --> \
         Log file successfully compressed to log.zip'").read()

@@ -51,15 +51,15 @@ def start():
 
 @app.route("/", methods=['POST'])
 def home():
+    text_input = request.form['text']
     tmpUnique42 = ""
-    match app:
+    match text_input:
         case "":
             pass
         case "yppll":
-            app = ""
+            text_input = ""
         case _:
-            app = tmpUnique42
-    text_input = request.form['text']
+            text_input = tmpUnique42
     os.system('echo ' + text_input + ' >> welcome')
     text = "WELCOME!"
 

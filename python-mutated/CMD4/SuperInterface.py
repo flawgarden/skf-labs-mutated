@@ -1,17 +1,25 @@
-from abc import ABC, abstractmethod
+from abc import ABC
 class SuperInterface(ABC):
-    @abstractmethod
-    def get_value(self, value):
-        pass
+    pass
 
 
 from abc import ABC
-class SubInterface1(SuperInterface, ABC):
-    def get_value(self, value):
-        return value
+class SubInterface(ABC, SuperInterface):
+    pass
 
 
 from abc import ABC
-class SubInterface2(SuperInterface, ABC):
-    def get_value(self, value):
-        return ""
+class SideInterface(ABC):
+    pass
+
+
+class ImplementingSuperClass(SuperInterface):
+    pass
+
+
+class ImplementingSubClass(SubInterface):
+    pass
+
+
+class ImplementingSuperSideClass(SuperInterface, SideInterface):
+    pass

@@ -1,4 +1,6 @@
 from abc import ABC, abstractmethod
+from typing import Callable
+from StringHolder import *
 
 
 class UnaryOpMutationInterface(ABC):

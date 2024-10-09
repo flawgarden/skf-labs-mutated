@@ -1,3 +1,6 @@
+from BaseBinaryOpClass import *
+
+
 class DerivedBinaryOpClass1(BaseBinaryOpClass):
     def virtual_call(self, l: str, r: str) -> str:
         return l

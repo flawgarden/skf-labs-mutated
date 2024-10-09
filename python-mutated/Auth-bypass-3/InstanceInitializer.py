@@ -1,3 +1,6 @@
+from typing import List
+
+
 class InstanceInitializer:
     value: str
     list: List[str]

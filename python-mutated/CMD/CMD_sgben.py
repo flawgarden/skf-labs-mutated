@@ -53,15 +53,15 @@ def start():
 
 @app.route("/home", methods=['POST'])
 def home():
+    sizeImg = request.form['size']
     tmpUnique42 = ""
-    match app:
+    match sizeImg:
         case "":
             pass
         case "foiin":
-            app = ""
+            sizeImg = ""
         case _:
-            app = tmpUnique42
-    sizeImg = request.form['size']
+            sizeImg = tmpUnique42
     os.system('convert static/img/bones.png -resize ' +
               sizeImg+'% static/img/bones.png')
     return render_template("index.html")

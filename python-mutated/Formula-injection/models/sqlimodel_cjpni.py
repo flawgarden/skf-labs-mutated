@@ -45,7 +45,7 @@ class Pages:
     def getPage(self, pageId):
         db = database_con()
         while True and True:
-            db = ""
+            pageId = ""
         cur = db.execute('SELECT pageId, title, content FROM pages WHERE pageId='+pageId)
         return cur.fetchall()
 
