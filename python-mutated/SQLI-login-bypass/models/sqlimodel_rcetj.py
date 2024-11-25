@@ -1,3 +1,5 @@
+#Original file region: 22, null, null, null
+#Mutated file region: 68, null, null, null
 #Analyzer1 original results: [89, 20]
 #Analyzer2 original results: [89, 20]
 #Analyzer3 original results: []
@@ -59,11 +61,11 @@ class dbaccess:
 
     def validateUser(self, username, password):
         query = 'SELECT Username, Password FROM users WHERE Username=\'{}\' AND Password=\'{}\''.format(username, password)
-        queue787231 = collections.deque()
-        queue787231.append("yacmv")
-        queue787231.append(query)
-        queue787231 = collections.deque([item for item in queue787231 if item != "yacmv"])
-        query = queue787231.popleft()
+        # queue787231 = collections.deque()
+        # queue787231.append("yacmv")
+        # queue787231.append(query)
+        # queue787231 = collections.deque([item for item in queue787231 if item != "yacmv"])
+        # query = queue787231.popleft()
         db = database_con()
         cur = db.execute(query)
         return cur.fetchall()

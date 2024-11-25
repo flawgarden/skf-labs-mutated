@@ -1,3 +1,5 @@
+#Original file region: 7, null, null, null
+#Mutated file region: 39, null, null, null
 sqlimodel_mnojp.py#Analyzer1 original results: [89, 20]
 #Analyzer2 original results: [89, 20]
 #Analyzer3 original results: []

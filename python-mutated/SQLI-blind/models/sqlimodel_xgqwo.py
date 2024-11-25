@@ -1,3 +1,5 @@
+#Original file region: 8, null, null, null
+#Mutated file region: 44, null, null, null
 #Analyzer1 original results: [89, 20]
 #Analyzer2 original results: [89, 20]
 #-------------
