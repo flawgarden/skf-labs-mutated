@@ -1,16 +1,3 @@
-#Original file region: 24, null, null, null
-#Mutated file region: 56, null, null, null
-#Analyzer1 original results: [20, 78]
-#Analyzer2 original results: [20, 78]
-#-------------
-#Analyzer1 analysis results: []
-#Analyzer2 analysis results: [78, 668]
-#Original file name: CMD4/CMD4.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/monkey/patching.tmt with name monkey_patch_class_method_positive
-#Used extensions:
-#Program:
 import string
 from string import capwords
 from .Exceptions import *

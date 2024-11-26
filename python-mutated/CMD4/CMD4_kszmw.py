@@ -1,16 +1,3 @@
-#Original file region: 24, null, null, null
-#Mutated file region: 65, null, null, null
-#Analyzer1 original results: [20, 78]
-#Analyzer2 original results: [20, 78]
-#-------------
-#Analyzer1 analysis results: []
-#Analyzer2 analysis results: [78, 668]
-#Original file name: CMD4/CMD4.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/map.tmt with name map_remove_1_negative
-#Used extensions: MACRO_Create_Map -> map787234 = {} | MACRO_Add_EXPR_ToMap -> map787234[~[EXPR_~[TYPE@1]~@1]~] = ~[EXPR_~[TYPE@2]~@2]~
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

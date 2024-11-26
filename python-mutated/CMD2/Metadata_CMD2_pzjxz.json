@@ -1,0 +1,60 @@
+{
+    "original_file_metadata": {
+        "file_name": "CMD2/CMD2.py",
+        "CWEs": [
+            20
+        ],
+        "kind": "fail",
+        "region": {
+            "start_line": 16,
+            "end_line": null,
+            "start_column": null,
+            "end_column": null
+        }
+    },
+    "mutated_file_metadata": {
+        "used_templates": [
+            {
+                "template_file": "templates-db/languages/python/sensitivity/inheritance/class.tmt",
+                "template_name": "get_value_from_super_class_positive"
+            }
+        ],
+        "used_extensions": [],
+        "region": {
+            "start_line": 39,
+            "end_line": null,
+            "start_column": null,
+            "end_column": null
+        }
+    },
+    "tool_results": [
+        {
+            "tool_name": "Analyzer1",
+            "original_found_CWEs": [
+                20,
+                78
+            ],
+            "mutated_found_CWEs": [
+                563,
+                116,
+                95,
+                94,
+                215,
+                489
+            ]
+        },
+        {
+            "tool_name": "Analyzer2",
+            "original_found_CWEs": [
+                20,
+                78
+            ],
+            "mutated_found_CWEs": [
+                78,
+                95,
+                668,
+                489
+            ]
+        }
+    ]
+}

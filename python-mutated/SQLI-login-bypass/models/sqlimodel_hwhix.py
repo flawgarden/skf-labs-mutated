@@ -1,16 +1,3 @@
-#Original file region: 22, null, null, null
-#Mutated file region: 60, null, null, null
-#Analyzer1 original results: [89, 20]
-#Analyzer2 original results: [89, 20]
-#-------------
-#Analyzer1 analysis results: []
-#Analyzer2 analysis results: [89]
-#Original file name: SQLI-login-bypass/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/queue.tmt with name simple_poll_negative
-#Used extensions: MACRO_Create_Queue -> queue787231 = collections.deque() | MACRO_Add_EXPR_ToQueue -> queue787231.append(~[EXPR_~[TYPE@1]~]~) | EXPR_str -> ~[EXPR_str]~.lower()
-#Program:
 import collections
 from .Record import *
 from .Exceptions import *

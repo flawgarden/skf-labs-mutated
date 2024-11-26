@@ -1,0 +1,51 @@
+{
+    "original_file_metadata": {
+        "file_name": "LFI/LFI.py",
+        "CWEs": [
+            20
+        ],
+        "kind": "fail",
+        "region": {
+            "start_line": 18,
+            "end_line": null,
+            "start_column": null,
+            "end_column": null
+        }
+    },
+    "mutated_file_metadata": {
+        "used_templates": [
+            {
+                "template_file": "templates-db/languages/python/sensitivity/virtuality/interface.tmt",
+                "template_name": "impl_binary_op_interface_class1_negative"
+            }
+        ],
+        "used_extensions": [],
+        "region": {
+            "start_line": 41,
+            "end_line": null,
+            "start_column": null,
+            "end_column": null
+        }
+    },
+    "tool_results": [
+        {
+            "tool_name": "Analyzer1",
+            "original_found_CWEs": [
+                20,
+                22
+            ],
+            "mutated_found_CWEs": []
+        },
+        {
+            "tool_name": "Analyzer2",
+            "original_found_CWEs": [
+                20,
+                22
+            ],
+            "mutated_found_CWEs": [
+                22,
+                668
+            ]
+        }
+    ]
+}

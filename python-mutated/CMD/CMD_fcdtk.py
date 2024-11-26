@@ -1,22 +1,3 @@
-#Original file region: 17, null, null, null
-#Mutated file region: 63, null, null, null
-#Analyzer3 original results: [20, 78]
-#Analyzer1 original results: [20, 78]
-#Analyzer2 original results: [20, 78]
-#Analyzer4 original results: [20, 78]
-#Analyzer5 original results: []
-#-------------
-#Analyzer3 analysis results: [489]
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: [215, 489]
-#Analyzer2 analysis results: [78, 668, 489]
-#Analyzer4 analysis results: [78, 94, 605]
-#Original file name: CMD/CMD.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/queue.tmt with name queue_remove_if_positive
-#Used extensions: MACRO_Create_Queue -> queue787231 = collections.deque() | MACRO_Add_Fixed_CONST_ToQueue -> queue787231.append(~[CONST_~[TYPE@1]~@1]~) | MACRO_Add_Fixed_VAR_ToQueue -> queue787231.append(~[VAR_~[TYPE@1]~@1]~)
-#Program:
 import collections
 from .Record import *
 from .Exceptions import *

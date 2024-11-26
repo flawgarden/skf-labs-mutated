@@ -1,16 +1,3 @@
-#Original file region: 18, null, null, null
-#Mutated file region: 54, null, null, null
-#Analyzer1 original results: [20, 22]
-#Analyzer2 original results: [20, 22]
-#-------------
-#Analyzer1 analysis results: []
-#Analyzer2 analysis results: [22, 668]
-#Original file name: LFI/LFI.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/inheritance/interface.tmt with name sub_interface_positive
-#Used extensions:
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

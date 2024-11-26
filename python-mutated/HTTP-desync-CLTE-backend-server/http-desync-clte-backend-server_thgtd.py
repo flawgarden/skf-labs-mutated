@@ -1,22 +1,3 @@
-#Original file region: 49, null, null, null
-#Mutated file region: 91, null, null, null
-#Analyzer5 original results: [20, 22]
-#Analyzer1 original results: [20, 22]
-#Analyzer3 original results: []
-#Analyzer2 original results: []
-#Analyzer4 original results: []
-#-------------
-#Analyzer3 analysis results: []
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: [73, 99, 36, 22, 23]
-#Analyzer2 analysis results: []
-#Analyzer4 analysis results: []
-#Original file name: HTTP-desync-CLTE-backend-server/http-desync-clte-backend-server.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/conditional/for.tmt with name for_operator_non_zero_init_negative
-#Used extensions: EXPR_int -> ~[EXPR_str]~.find(~[EXPR_str]~) | EXPR_int -> ~[EXPR_int]~ + ~[EXPR_int]~ | EXPR_str -> ~[EXPR_str]~.lower() | EXPR_int -> ~[EXPR_int]~ - ~[EXPR_int]~ | EXPR_int -> ~[EXPR_int]~ + ~[EXPR_int]~
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

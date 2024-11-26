@@ -1,22 +1,3 @@
-#Original file region: 16, null, null, null
-#Mutated file region: 58, null, null, null
-#Analyzer3 original results: [20, 78]
-#Analyzer1 original results: [20, 78]
-#Analyzer2 original results: [20, 78]
-#Analyzer4 original results: [20, 78]
-#Analyzer5 original results: []
-#-------------
-#Analyzer3 analysis results: [94, 489, 78]
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: [563, 116, 94, 95, 489, 215]
-#Analyzer2 analysis results: [78, 95, 668, 489]
-#Analyzer4 analysis results: [78, 94, 605]
-#Original file name: CMD2/CMD2.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/inheritance/class.tmt with name get_value_from_sub_class_positive
-#Used extensions:
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

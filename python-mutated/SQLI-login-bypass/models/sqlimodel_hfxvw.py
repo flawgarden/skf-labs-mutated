@@ -1,14 +1,5 @@
-#Original file region: 22, null, null, null
-#Mutated file region: 49, null, null, null
 #
-#-------------
 #
-#Original file name: SQLI-login-bypass/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from /home/zver/IdeaProjects/psi-fuzz/templates-db/languages/python/sensitivity/magic/magic.tmt with name magic_method_init_positive
-#Used extensions:
-#Program:
 from .ArrayHolder import *
 from .StaticFieldHolder import *
 from .StringFactory import *

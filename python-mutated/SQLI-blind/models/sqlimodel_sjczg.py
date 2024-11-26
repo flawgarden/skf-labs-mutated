@@ -1,16 +1,3 @@
-#Original file region: 8, null, null, null
-#Mutated file region: 46, null, null, null
-#Analyzer1 original results: [89, 20]
-#Analyzer2 original results: [89, 20]
-#-------------
-#Analyzer1 analysis results: []
-#Analyzer2 analysis results: [89]
-#Original file name: SQLI-blind/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/list.tmt with name list_union_positive
-#Used extensions: MACRO_Create_List -> list787231 = [] | MACRO_Add_VAR_ToList -> list787231.append(~[VAR_~[TYPE@1]~@1]~)
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

@@ -1,22 +1,3 @@
-#Original file region: 9, null, null, null
-#Mutated file region: 52, null, null, null
-#Analyzer3 original results: [20, 22]
-#Analyzer1 original results: [20, 22]
-#Analyzer5 original results: []
-#Analyzer2 original results: []
-#Analyzer4 original results: []
-#-------------
-#Analyzer3 analysis results: [489, 23]
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: []
-#Analyzer2 analysis results: [668, 489]
-#Analyzer4 analysis results: [94, 605]
-#Original file name: Untrusted-sources-js/script-provider.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/map.tmt with name map_simple_get_1_positive
-#Used extensions: MACRO_Create_Map -> map787234 = {}
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

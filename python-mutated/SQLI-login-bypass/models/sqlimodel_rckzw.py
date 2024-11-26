@@ -1,14 +1,5 @@
-#Original file region: 22, null, null, null
-#Mutated file region: 50, null, null, null
 #
-#-------------
 #
-#Original file name: SQLI-login-bypass/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from /home/zver/IdeaProjects/psi-fuzz/templates-db/languages/python/sensitivity/field/nested.tmt with name nested_field_depth_2_array_positive
-#Used extensions:
-#Program:
 from .ArrayHolder import *
 from .StaticFieldHolder import *
 from .StringFactory import *

@@ -1,18 +1,3 @@
-#Original file region: 24, null, null, null
-#Mutated file region: 63, null, null, null
-#Analyzer3 original results: [20, 78]
-#Analyzer1 original results: [20, 78]
-#Analyzer2 original results: [20, 78]
-#-------------
-#Analyzer3 analysis results: []
-#Analyzer1 analysis results: [563]
-#Analyzer2 analysis results: [668]
-#Original file name: CMD4/CMD4.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/exceptions/causeThrows.tmt with name null_pointer_exception_positive
-#Used extensions:
-#Program:
 from typing import Any
 
 from .Exceptions import *

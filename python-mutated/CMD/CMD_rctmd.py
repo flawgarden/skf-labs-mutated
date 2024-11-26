@@ -1,18 +1,3 @@
-#Original file region: 17, null, null, null
-#Mutated file region: 50, null, null, null
-#Analyzer3 original results: [20, 78]
-#Analyzer1 original results: [20, 78]
-#Analyzer2 original results: [20, 78]
-#-------------
-#Analyzer3 analysis results: [489, 78]
-#Analyzer1 analysis results: [88, 78, 489, 215]
-#Analyzer2 analysis results: [78, 668, 489]
-#Original file name: CMD/CMD.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/tuples.tmt with name nested_tuples_negative
-#Used extensions:
-#Program:
 from .Exceptions import *
 from .Concurrency import *
 from .Imports import *

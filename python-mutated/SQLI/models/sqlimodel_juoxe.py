@@ -1,16 +1,3 @@
-#Original file region: 7, null, null, null
-#Mutated file region: 36, null, null, null
-#Analyzer1 original results: [89, 20]
-#Analyzer2 original results: [89, 20]
-#-------------
-#Analyzer1 analysis results: []
-#Analyzer2 analysis results: [89]
-#Original file name: SQLI/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/varargs/varargs.tmt with name varargs_combine_strings_negative
-#Used extensions: EXPR_str -> ~[EXPR_str]~ + ~[EXPR_str]~ | EXPR_str -> ~[EXPR_str]~.upper() | EXPR_str -> ~[EXPR_str]~.upper() | EXPR_str -> ~[EXPR_str]~[~[EXPR_int]~:~[EXPR_int]~]
-#Program:
 from typing import TypeVar
 from .Exceptions import *
 from .Concurrency import *

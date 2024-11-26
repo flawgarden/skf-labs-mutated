@@ -1,0 +1,51 @@
+{
+    "original_file_metadata": {
+        "file_name": "CMD4/CMD4.py",
+        "CWEs": [
+            20
+        ],
+        "kind": "fail",
+        "region": {
+            "start_line": 24,
+            "end_line": null,
+            "start_column": null,
+            "end_column": null
+        }
+    },
+    "mutated_file_metadata": {
+        "used_templates": [
+            {
+                "template_file": "templates-db/languages/python/sensitivity/field/constructors.tmt",
+                "template_name": "class_with_array_initialization_by_value_negative"
+            }
+        ],
+        "used_extensions": [],
+        "region": {
+            "start_line": 47,
+            "end_line": null,
+            "start_column": null,
+            "end_column": null
+        }
+    },
+    "tool_results": [
+        {
+            "tool_name": "Analyzer1",
+            "original_found_CWEs": [
+                20,
+                78
+            ],
+            "mutated_found_CWEs": []
+        },
+        {
+            "tool_name": "Analyzer2",
+            "original_found_CWEs": [
+                20,
+                78
+            ],
+            "mutated_found_CWEs": [
+                78,
+                668
+            ]
+        }
+    ]
+}

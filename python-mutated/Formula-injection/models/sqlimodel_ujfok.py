@@ -1,18 +1,3 @@
-#Original file region: 7, null, null, null
-#Mutated file region: 39, null, null, null
-#Analyzer1 original results: [89, 20]
-#Analyzer2 original results: [89, 20]
-#Analyzer3 original results: []
-#-------------
-#Analyzer3 analysis results: []
-#Analyzer1 analysis results: [396, 89, 584]
-#Analyzer2 analysis results: [89]
-#Original file name: Formula-injection/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/comprehension.tmt with name list_comprehension_with_condition_negative
-#Used extensions:
-#Program:
 from .Exceptions import *
 from .Concurrency import *
 from .Imports import *

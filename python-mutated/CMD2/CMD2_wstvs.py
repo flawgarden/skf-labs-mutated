@@ -1,16 +1,3 @@
-#Original file region: 16, null, null, null
-#Mutated file region: 55, null, null, null
-#Analyzer1 original results: [20, 78]
-#Analyzer2 original results: [20, 78]
-#-------------
-#Analyzer1 analysis results: [563, 95, 116, 94, 78, 88, 215, 489]
-#Analyzer2 analysis results: [95, 668, 489]
-#Original file name: CMD2/CMD2.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/list.tmt with name list_reverse_positive
-#Used extensions: MACRO_Create_List -> list787231 = [] | MACRO_Add_VAR_ToList -> list787231.append(~[VAR_~[TYPE@1]~@1]~) | MACRO_Add_CONST_ToList -> list787231.append(~[CONST_~[TYPE@1]~@1]~)
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

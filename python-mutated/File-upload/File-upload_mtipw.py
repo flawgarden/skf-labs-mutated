@@ -1,22 +1,3 @@
-#Original file region: 19, null, null, null
-#Mutated file region: 65, null, null, null
-#Analyzer3 original results: [20, 22]
-#Analyzer1 original results: [20, 22]
-#Analyzer5 original results: []
-#Analyzer2 original results: []
-#Analyzer4 original results: []
-#-------------
-#Analyzer3 analysis results: []
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: [23, 36, 73, 99, 22]
-#Analyzer2 analysis results: [668]
-#Analyzer4 analysis results: [605]
-#Original file name: File-upload/File-upload.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/set.tmt with name set_size_positive
-#Used extensions: MACRO_Create_Set -> set787231 = set() | MACRO_Add_EXPR_ToSet -> set787231.add(~[EXPR_~[TYPE@1]~]~) | MACRO_Add_Fixed_VAR_ToSet -> set787231.add(~[VAR_~[TYPE@1]~@1]~) | EXPR_bool -> ~[EXPR_str]~.startswith(~[EXPR_str]~, start=~[EXPR_int]~, end=~[EXPR_int]~)
-#Program:
 import collections
 from .Record import *
 from .Exceptions import *

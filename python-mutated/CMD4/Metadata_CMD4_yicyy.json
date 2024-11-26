@@ -1,0 +1,54 @@
+{
+    "original_file_metadata": {
+        "file_name": "CMD4/CMD4.py",
+        "CWEs": [
+            20
+        ],
+        "kind": "fail",
+        "region": {
+            "start_line": 24,
+            "end_line": null,
+            "start_column": null,
+            "end_column": null
+        }
+    },
+    "mutated_file_metadata": {
+        "used_templates": [
+            {
+                "template_file": "templates-db/languages/python/sensitivity/collections/set.tmt",
+                "template_name": "set_add_simple_negative"
+            }
+        ],
+        "used_extensions": [
+            " MACRO_Create_Set -> set787231 = set()",
+            "MACRO_Add_Fixed_CONST_ToSet -> set787231.add(~[CONST_~[TYPE@1]~@1]~)"
+        ],
+        "region": {
+            "start_line": 49,
+            "end_line": null,
+            "start_column": null,
+            "end_column": null
+        }
+    },
+    "tool_results": [
+        {
+            "tool_name": "Analyzer1",
+            "original_found_CWEs": [
+                20,
+                78
+            ],
+            "mutated_found_CWEs": []
+        },
+        {
+            "tool_name": "Analyzer2",
+            "original_found_CWEs": [
+                20,
+                78
+            ],
+            "mutated_found_CWEs": [
+                78,
+                668
+            ]
+        }
+    ]
+}

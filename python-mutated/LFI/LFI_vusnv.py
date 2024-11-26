@@ -1,18 +1,3 @@
-#Original file region: 18, null, null, null
-#Mutated file region: 55, null, null, null
-#Analyzer3 original results: [20, 22]
-#Analyzer1 original results: [20, 22]
-#Analyzer2 original results: [20, 22]
-#-------------
-#Analyzer3 analysis results: []
-#Analyzer1 analysis results: [563]
-#Analyzer2 analysis results: [668]
-#Original file name: LFI/LFI.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/exceptions/tryCatchFinally.tmt with name try_multi_cath_positive
-#Used extensions: EXPR_bool -> ~[EXPR_str]~.endswith(~[EXPR_str]~) | EXPR_str -> ~[EXPR_str]~.strip() | EXPR_str -> "" | EXPR_str -> ~[EXPR_str]~.replace(~[EXPR_str]~, ~[EXPR_str]~)
-#Program:
 from .Exceptions import *
 from .Concurrency import *
 from .Imports import *

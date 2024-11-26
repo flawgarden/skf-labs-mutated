@@ -1,18 +1,3 @@
-#Original file region: 22, null, null, null
-#Mutated file region: 54, null, null, null
-#Analyzer1 original results: [89, 20]
-#Analyzer2 original results: [89, 20]
-#Analyzer3 original results: []
-#-------------
-#Analyzer3 analysis results: []
-#Analyzer1 analysis results: [563]
-#Analyzer2 analysis results: []
-#Original file name: SQLI-login-bypass/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/none.tmt with name list_with_none_handling_positive
-#Used extensions:
-#Program:
 from .Exceptions import *
 from .Concurrency import *
 from .Imports import *

@@ -1,16 +1,3 @@
-#Original file region: 18, null, null, null
-#Mutated file region: 56, null, null, null
-#Analyzer1 original results: [20, 22]
-#Analyzer2 original results: [20, 22]
-#-------------
-#Analyzer1 analysis results: []
-#Analyzer2 analysis results: [22, 668]
-#Original file name: LFI/LFI.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/queue.tmt with name simple_poll_positive
-#Used extensions: MACRO_Create_Queue -> queue787231 = collections.deque() | MACRO_Add_Fixed_VAR_ToQueue -> queue787231.append(~[VAR_~[TYPE@1]~@1]~)
-#Program:
 import collections
 from .Record import *
 from .Exceptions import *

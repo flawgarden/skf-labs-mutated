@@ -1,22 +1,3 @@
-#Original file region: 28, null, null, null
-#Mutated file region: 75, null, null, null
-#Analyzer3 original results: [259, 798]
-#Analyzer4 original results: [259, 798]
-#Analyzer5 original results: []
-#Analyzer1 original results: []
-#Analyzer2 original results: []
-#-------------
-#Analyzer3 analysis results: [798, 259]
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: []
-#Analyzer2 analysis results: [668]
-#Analyzer4 analysis results: []
-#Original file name: Auth-bypass-3/Auth-bypass.py
-#Original file CWE's: [259]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/conditional/switch.tmt with name switch_operator_any_negative
-#Used extensions: MACRO_Any_str -> ~[VAR_str]~
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

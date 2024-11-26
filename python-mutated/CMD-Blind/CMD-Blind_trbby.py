@@ -1,22 +1,3 @@
-#Original file region: 17, null, null, null
-#Mutated file region: 60, null, null, null
-#Analyzer3 original results: [20, 78]
-#Analyzer1 original results: [20, 78]
-#Analyzer2 original results: [20, 78]
-#Analyzer4 original results: [20, 78]
-#Analyzer5 original results: []
-#-------------
-#Analyzer3 analysis results: []
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: []
-#Analyzer2 analysis results: [78, 668]
-#Analyzer4 analysis results: [78, 605]
-#Original file name: CMD-Blind/CMD-Blind.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/field/regularField.tmt with name class_with_string_field_negative
-#Used extensions:
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

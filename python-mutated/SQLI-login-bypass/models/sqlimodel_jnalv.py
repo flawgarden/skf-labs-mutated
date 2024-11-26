@@ -1,18 +1,3 @@
-#Original file region: 22, null, null, null
-#Mutated file region: 55, null, null, null
-#Analyzer1 original results: [89, 20]
-#Analyzer2 original results: [89, 20]
-#Analyzer3 original results: []
-#-------------
-#Analyzer3 analysis results: []
-#Analyzer1 analysis results: [89]
-#Analyzer2 analysis results: [89]
-#Original file name: SQLI-login-bypass/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/exceptions/classNotFoundThrows.tmt with name class_not_found_exception_negative
-#Used extensions: EXPR_str -> ~[EXPR_str]~.lower() | EXPR_str -> ~[EXPR_str]~.replace(~[EXPR_str]~, ~[EXPR_str]~)
-#Program:
 from .Exceptions import *
 from .Concurrency import *
 from .Imports import *

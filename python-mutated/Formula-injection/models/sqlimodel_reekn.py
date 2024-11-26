@@ -1,22 +1,3 @@
-#Original file region: 7, null, null, null
-#Mutated file region: 57, null, null, null
-#Analyzer1 original results: [89, 20]
-#Analyzer2 original results: [89, 20]
-#Analyzer4 original results: [89, 20]
-#Analyzer3 original results: []
-#Analyzer5 original results: []
-#-------------
-#Analyzer3 analysis results: []
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: [396, 584]
-#Analyzer2 analysis results: [89]
-#Analyzer4 analysis results: [89]
-#Original file name: Formula-injection/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/queue.tmt with name two_queues_positive
-#Used extensions: EXPR_str -> ~[EXPR_str]~.strip() | EXPR_str -> ~[EXPR_str]~[~[EXPR_int]~:~[EXPR_int]~] | EXPR_str -> ~[EXPR_str]~[~[EXPR_int]~:] | EXPR_str -> ~[EXPR_str]~.strip() | EXPR_int -> ~[EXPR_int]~ - ~[EXPR_int]~ | EXPR_int -> ~[EXPR_str]~.find(~[EXPR_str]~, start=~[EXPR_int]~, end=~[EXPR_int]~)
-#Program:
 import collections
 from .Record import *
 from .Exceptions import *

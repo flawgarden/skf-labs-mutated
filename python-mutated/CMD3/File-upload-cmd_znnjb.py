@@ -1,18 +1,3 @@
-#Original file region: 26, null, null, null
-#Mutated file region: 57, null, null, null
-#Analyzer3 original results: [20, 22]
-#Analyzer1 original results: [20, 22]
-#Analyzer2 original results: []
-#-------------
-#Analyzer3 analysis results: []
-#Analyzer1 analysis results: [563]
-#Analyzer2 analysis results: [668]
-#Original file name: CMD3/File-upload-cmd.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/varargs/varargs.tmt with name varargs_get_first_string_positive
-#Used extensions: EXPR_str -> ~[EXPR_str]~ + ~[EXPR_str]~ | EXPR_str -> "" | EXPR_str -> ~[EXPR_str]~.lower()
-#Program:
 from typing import TypeVar
 from .Exceptions import *
 from .Concurrency import *

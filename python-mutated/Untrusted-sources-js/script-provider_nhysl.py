@@ -1,22 +1,3 @@
-#Original file region: 9, null, null, null
-#Mutated file region: 58, null, null, null
-#Analyzer3 original results: [20, 22]
-#Analyzer1 original results: [20, 22]
-#Analyzer5 original results: []
-#Analyzer2 original results: []
-#Analyzer4 original results: []
-#-------------
-#Analyzer3 analysis results: [489, 23]
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: [489, 215]
-#Analyzer2 analysis results: [668, 489]
-#Analyzer4 analysis results: [94, 605]
-#Original file name: Untrusted-sources-js/script-provider.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/iter.tmt with name stream_map_positive
-#Used extensions: MACRO_Create_List -> list787231 = [] | MACRO_Add_Fixed_EXPR_ToList -> list787231.append(~[EXPR_~[TYPE@1]~@1]~) | MACRO_Add_Fixed_CONST_ToList -> list787231.append(~[CONST_~[TYPE@1]~@1]~) | MACRO_Add_Fixed_VAR_ToList -> list787231.append(~[VAR_~[TYPE@1]~@1]~) | MACRO_Create_Iter -> iter787231 = iter(list787231)
-#Program:
 import itertools
 import functools
 from .Record import *

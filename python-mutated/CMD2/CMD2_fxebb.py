@@ -1,22 +1,3 @@
-#Original file region: 16, null, null, null
-#Mutated file region: 65, null, null, null
-#Analyzer3 original results: [20, 78]
-#Analyzer1 original results: [20, 78]
-#Analyzer2 original results: [20, 78]
-#Analyzer4 original results: [20, 78]
-#Analyzer5 original results: []
-#-------------
-#Analyzer3 analysis results: [489, 78, 94]
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: [563, 95, 94, 116, 215, 489]
-#Analyzer2 analysis results: [95, 668, 489]
-#Analyzer4 analysis results: [78, 94, 605]
-#Original file name: CMD2/CMD2.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/iter.tmt with name stream_map_negative
-#Used extensions: MACRO_Create_List -> list787231 = [] | MACRO_Add_Fixed_VAR_ToList -> list787231.append(~[VAR_~[TYPE@1]~@1]~) | MACRO_Add_CONST_ToList -> list787231.append(~[CONST_~[TYPE@1]~]~) | MACRO_Add_CONST_ToList -> list787231.append(~[CONST_~[TYPE@1]~]~) | MACRO_Create_Iter -> iter787231 = iter(list787231)
-#Program:
 import itertools
 import functools
 from .Record import *

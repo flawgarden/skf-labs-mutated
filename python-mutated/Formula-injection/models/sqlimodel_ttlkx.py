@@ -1,16 +1,3 @@
-#Original file region: 7, null, null, null
-#Mutated file region: 46, null, null, null
-#Analyzer1 original results: [89, 20]
-#Analyzer2 original results: [89, 20]
-#-------------
-#Analyzer1 analysis results: [396, 584]
-#Analyzer2 analysis results: [89]
-#Original file name: Formula-injection/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/list.tmt with name list_filter_neutral
-#Used extensions: MACRO_Create_List -> list787231 = [] | MACRO_Add_VAR_ToList -> list787231.append(~[VAR_~[TYPE@1]~@1]~) | MACRO_Add_EXPR_ToList -> list787231.append(~[EXPR_~[TYPE@1]~@1]~) | MACRO_Add_CONST_ToList -> list787231.append(~[CONST_~[TYPE@1]~@1]~) | EXPR_bool -> ~[EXPR_str]~.casefold() == ~[EXPR_str]~.casefold() | EXPR_str -> ~[EXPR_str]~.replace('/', '.') | EXPR_str -> ""
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

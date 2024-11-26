@@ -1,16 +1,3 @@
-#Original file region: 22, null, null, null
-#Mutated file region: 49, null, null, null
-#Analyzer1 original results: [89, 20]
-#Analyzer2 original results: [89, 20]
-#-------------
-#Analyzer1 analysis results: []
-#Analyzer2 analysis results: [89]
-#Original file name: SQLI-login-bypass/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/none.tmt with name conditional_expression_none_negative
-#Used extensions:
-#Program:
 from .Concurrency import *
 from .Imports import *
 from .ClassWrappers import *

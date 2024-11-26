@@ -1,16 +1,3 @@
-#Original file region: 18, null, null, null
-#Mutated file region: 58, null, null, null
-#Analyzer1 original results: [20, 22]
-#Analyzer2 original results: [20, 22]
-#-------------
-#Analyzer1 analysis results: []
-#Analyzer2 analysis results: [22, 668]
-#Original file name: LFI/LFI.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/iter.tmt with name stream_simple_negative
-#Used extensions: MACRO_Create_List -> list787231 = [] | MACRO_Add_Fixed_CONST_ToList -> list787231.append(~[CONST_~[TYPE@1]~@1]~) | MACRO_Create_Iter -> iter787231 = iter(list787231)
-#Program:
 import itertools
 import functools
 from .Record import *
