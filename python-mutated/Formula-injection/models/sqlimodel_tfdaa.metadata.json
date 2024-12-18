@@ -15,8 +15,8 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "sensitivity/collections/generators",
-                "template_name": "generator_simple_negative"
+                "template_file": "sensitivity/collections/yield",
+                "template_name": "yield_multiple_take_last_negative"
             }
         ],
         "used_extensions": [],
