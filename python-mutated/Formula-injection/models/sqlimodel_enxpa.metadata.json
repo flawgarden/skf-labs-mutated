@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "templates-db/languages/python/sensitivity/exceptions/causeThrows.tmt",
+                "template_file": "sensitivity/exceptions/causeThrows",
                 "template_name": "null_pointer_exception_negative"
             }
         ],

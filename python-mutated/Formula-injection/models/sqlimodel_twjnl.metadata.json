@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "templates-db/languages/python/sensitivity/import/import.tmt",
+                "template_file": "sensitivity/import/import",
                 "template_name": "import_string_module_from_alias_positive"
             }
         ],

@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "templates-db/languages/python/sensitivity/monkey/patching.tmt",
+                "template_file": "sensitivity/monkey/patching",
                 "template_name": "monkey_patch_class_method_with_arg_positive"
             }
         ],

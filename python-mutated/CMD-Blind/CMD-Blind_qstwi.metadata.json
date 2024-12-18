@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "templates-db/languages/python/sensitivity/duck/typing.tmt",
+                "template_file": "sensitivity/duck/typing",
                 "template_name": "duck_typing_quack_method_positive"
             }
         ],

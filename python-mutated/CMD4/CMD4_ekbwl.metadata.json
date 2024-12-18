@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "templates-db/languages/python/sensitivity/interpolation.tmt",
+                "template_file": "sensitivity/interpolation",
                 "template_name": "format_method_with_indexes_positive"
             }
         ],

@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "templates-db/languages/python/sensitivity/inheritance/interface.tmt",
+                "template_file": "sensitivity/inheritance/interface",
                 "template_name": "sub_interface_positive"
             }
         ],

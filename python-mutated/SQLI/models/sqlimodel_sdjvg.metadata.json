@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "templates-db/languages/python/sensitivity/generics/parametrized.tmt",
+                "template_file": "sensitivity/generics/parametrized",
                 "template_name": "get_value_from_generic_class_negative"
             }
         ],

@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "templates-db/languages/python/sensitivity/magic/magic.tmt",
+                "template_file": "sensitivity/magic/magic",
                 "template_name": "magic_method_len_negative"
             }
         ],

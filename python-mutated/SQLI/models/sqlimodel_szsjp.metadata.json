@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "templates-db/languages/python/sensitivity/collections/generators.tmt",
+                "template_file": "sensitivity/collections/generators",
                 "template_name": "generator_infinite_negative"
             }
         ],

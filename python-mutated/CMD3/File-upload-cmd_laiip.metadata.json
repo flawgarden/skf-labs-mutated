@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "templates-db/languages/python/sensitivity/none.tmt",
+                "template_file": "sensitivity/none",
                 "template_name": "conditional_expression_none_positive"
             }
         ],

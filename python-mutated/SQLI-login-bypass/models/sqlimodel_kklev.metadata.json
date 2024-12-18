@@ -15,7 +15,7 @@
     "mutated_file_metadata": {
         "used_templates": [
             {
-                "template_file": "/home/zver/IdeaProjects/psi-fuzz/templates-db/languages/python/sensitivity/exceptions/classNotFoundThrows.tmt",
+                "template_file": "sensitivity/exceptions/classNotFoundThrows",
                 "template_name": "class_not_found_exception_positive"
             }
         ],
