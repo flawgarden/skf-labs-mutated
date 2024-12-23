@@ -4,22 +4,18 @@ from models.sqlimodel_xlisn import *
 from models.sqlimodel_ixabo import *
 from models.sqlimodel_xldrs import *
 from models.sqlimodel_qsujc import *
-from models.sqlimodel_bdnam import *
 from models.sqlimodel_nohzy import *
 from models.sqlimodel_juoxe import *
 from models.sqlimodel_pbrvw import *
 from models.sqlimodel_sdjvg import *
 from models.sqlimodel_pjoim import *
-from models.sqlimodel_fivre import *
 from models.sqlimodel_vdylu import *
 from models.sqlimodel_vuwer import *
 from models.sqlimodel_kpekx import *
 from models.sqlimodel_jbasw import *
 from models.sqlimodel_djyrj import *
-from models.sqlimodel_cefjq import *
 from models.sqlimodel_ljxkt import *
 from models.sqlimodel_swcqc import *
-from models.sqlimodel_wpvsb import *
 from models.sqlimodel_xblbu import *
 from models.sqlimodel_mbqpv import *
 from models.sqlimodel_ehkvt import *
@@ -32,11 +28,9 @@ from models.sqlimodel_hauuc import *
 from models.sqlimodel_vwhix import *
 from models.sqlimodel_yepfj import *
 from models.sqlimodel_othcc import *
-from models.sqlimodel_nvqnv import *
 from models.sqlimodel_ccefg import *
 from models.sqlimodel_zuwth import *
 from models.sqlimodel_hurdj import *
-from models.sqlimodel_hmfez import *
 from models.sqlimodel_xcndf import *
 from models.sqlimodel_wpjci import *
 from models.sqlimodel_msrgv import *
@@ -48,9 +42,6 @@ from models.sqlimodel_whfea import *
 from models.sqlimodel_bdyci import *
 from models.sqlimodel_bljbd import *
 from models.sqlimodel_ymlmq import *
-from models.sqlimodel_wcmla import *
-from models.sqlimodel_aaqal import *
-from models.sqlimodel_hindr import *
 from models.sqlimodel_raqdv import *
 from models.sqlimodel_vsggv import *
 from models.sqlimodel_xgnkx import *
@@ -59,12 +50,10 @@ from models.sqlimodel_lrcmb import *
 from models.sqlimodel_fttso import *
 from models.sqlimodel_rmrge import *
 from models.sqlimodel_nycqk import *
-from models.sqlimodel_kemzr import *
 from models.sqlimodel_pottz import *
 from models.sqlimodel_pedce import *
 from models.sqlimodel_pckwo import *
 from models.sqlimodel_nqgtf import *
-from models.sqlimodel_jsiow import *
 from models.sqlimodel_uccgj import *
 from models.sqlimodel_mtkkk import *
 from models.sqlimodel_xdzpk import *
@@ -74,12 +63,8 @@ from models.sqlimodel_rdpdk import *
 from models.sqlimodel_dfkht import *
 from models.sqlimodel_fohef import *
 from models.sqlimodel_dbgwa import *
-from models.sqlimodel_odqho import *
-from models.sqlimodel_bdeto import *
-from models.sqlimodel_zllgw import *
 from models.sqlimodel_nieas import *
 from models.sqlimodel_dpppn import *
-from models.sqlimodel_rsxro import *
 from flask import Flask, render_template
 
 

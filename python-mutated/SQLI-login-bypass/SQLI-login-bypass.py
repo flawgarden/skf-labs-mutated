@@ -20,14 +20,11 @@
 #
 
 from models.sqlimodel import *
-from models.sqlimodel_rcetj import *
 from models.sqlimodel_kjixf import *
 from models.sqlimodel_ioqha import *
 from models.sqlimodel_rckzw import *
 from models.sqlimodel_znleq import *
-from models.sqlimodel_asgzp import *
 from models.sqlimodel_iiqmj import *
-from models.sqlimodel_xvbnd import *
 from models.sqlimodel_jnalv import *
 from models.sqlimodel_ffuuy import *
 from models.sqlimodel_bxzpy import *
@@ -70,7 +67,6 @@ from models.sqlimodel_ughzz import *
 from models.sqlimodel_zqrti import *
 from models.sqlimodel_vzfic import *
 from models.sqlimodel_kioxb import *
-from models.sqlimodel_bagvp import *
 from models.sqlimodel_xcwqp import *
 from models.sqlimodel_hfxvw import *
 from flask import Flask, request, render_template, make_response, request

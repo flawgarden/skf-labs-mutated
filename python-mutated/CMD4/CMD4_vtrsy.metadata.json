@@ -16,7 +16,7 @@
         "used_templates": [
             {
                 "template_file": "sensitivity/duck/typing",
-                "template_name": "duck_typing_missing_method_exception_positive"
+                "template_name": "duck_typing_missing_method_exception_negative"
             }
         ],
         "used_extensions": [],

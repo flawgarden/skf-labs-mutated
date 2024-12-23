@@ -11,7 +11,6 @@ from models.sqlimodel_nsxac import *
 from models.sqlimodel_zpede import *
 from models.sqlimodel_speem import *
 from models.sqlimodel_zispw import *
-from models.sqlimodel_yxnsv import *
 from models.sqlimodel_kggtk import *
 from models.sqlimodel_jpjbt import *
 from flask import Flask, render_template
