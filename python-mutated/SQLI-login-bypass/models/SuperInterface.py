@@ -3,12 +3,10 @@ class SuperInterface(ABC):
     pass
 
 
-from abc import ABC
-class SubInterface(ABC, SuperInterface):
+class SubInterface(SuperInterface):
     pass
 
 
-from abc import ABC
 class SideInterface(ABC):
     pass
 
