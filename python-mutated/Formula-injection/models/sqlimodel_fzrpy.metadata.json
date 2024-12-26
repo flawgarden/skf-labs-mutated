@@ -23,7 +23,7 @@
             " MACRO_Empty_String_Array -> [\"\", \"\", \"\"]"
         ],
         "region": {
-            "start_line": 32,
+            "start_line": 34,
             "end_line": null,
             "start_column": null,
             "end_column": null

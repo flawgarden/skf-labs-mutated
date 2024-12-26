@@ -26,7 +26,7 @@
             "EXPR_int -> len(~[EXPR_str]~)"
         ],
         "region": {
-            "start_line": 42,
+            "start_line": 44,
             "end_line": null,
             "start_column": null,
             "end_column": null

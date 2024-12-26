@@ -23,7 +23,7 @@
             " EXPR_bool -> ~[EXPR_bool@1]~ and ~[EXPR_bool@1]~"
         ],
         "region": {
-            "start_line": 30,
+            "start_line": 32,
             "end_line": null,
             "start_column": null,
             "end_column": null

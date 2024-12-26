@@ -28,7 +28,7 @@
             "EXPR_int -> ~[EXPR_str]~.find(~[EXPR_str]~, start=~[EXPR_int]~, end=~[EXPR_int]~)"
         ],
         "region": {
-            "start_line": 38,
+            "start_line": 40,
             "end_line": null,
             "start_column": null,
             "end_column": null

@@ -26,7 +26,7 @@
             "EXPR_str -> ~[EXPR_str]~.strip()"
         ],
         "region": {
-            "start_line": 45,
+            "start_line": 47,
             "end_line": null,
             "start_column": null,
             "end_column": null

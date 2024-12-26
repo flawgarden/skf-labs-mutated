@@ -26,7 +26,7 @@
             "EXPR_bool -> ~[EXPR_str]~.startswith(~[EXPR_str]~, start=~[EXPR_int]~, end=~[EXPR_int]~)"
         ],
         "region": {
-            "start_line": 46,
+            "start_line": 48,
             "end_line": null,
             "start_column": null,
             "end_column": null

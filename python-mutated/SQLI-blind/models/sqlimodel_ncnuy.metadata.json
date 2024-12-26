@@ -25,7 +25,7 @@
             "EXPR_int -> ~[EXPR_str]~.rfind(~[EXPR_str]~)"
         ],
         "region": {
-            "start_line": 24,
+            "start_line": 26,
             "end_line": null,
             "start_column": null,
             "end_column": null
