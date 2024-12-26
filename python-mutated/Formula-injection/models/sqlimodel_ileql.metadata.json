@@ -30,7 +30,8 @@
             "end_line": null,
             "start_column": null,
             "end_column": null
-        }
+        },
+        "kind": "fail"
     },
     "tool_results": [
         {
