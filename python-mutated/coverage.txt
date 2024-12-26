@@ -1,6 +1,6 @@
-Total coverage: 65.53%
-sensitivity/time: 0.00%
-	simple_time_neutral uncovered
+Total coverage: 100.00%
+sensitivity/time: 100.00%
+	simple_time_neutral covered
 sensitivity/none: 100.00%
 	simple_none_positive covered
 	simple_none_negative covered
@@ -14,26 +14,26 @@ sensitivity/none: 100.00%
 	conditional_expression_none_negative covered
 	list_with_none_handling_positive covered
 	list_with_none_handling_negative covered
-sensitivity/regex: 0.00%
-	regex_exactly_match_negative uncovered
-	regex_escaping_positive uncovered
-	regex_char_group_negative uncovered
-	regex_not_char_group_positive uncovered
-	regex_anchor_negative uncovered
-	regex_anchor_positive uncovered
-	regex_backreference_positive uncovered
-	regex_named_backreference_negative uncovered
-	regex_counting_quantifier_negative uncovered
-	regex_count_positive uncovered
-	regex_alternation_negative uncovered
-	regex_lookarounds_positive uncovered
-	regex_options_negative uncovered
-	regex_inline_options_negative uncovered
-	regex_replace_positive uncovered
-	regex_replace_with_substitution_negative uncovered
-	regex_split_positive uncovered
-	regex_matches_positive uncovered
-sensitivity/string_interpolation: 90.00%
+sensitivity/regex: 100.00%
+	regex_exactly_match_negative covered
+	regex_escaping_positive covered
+	regex_char_group_negative covered
+	regex_not_char_group_positive covered
+	regex_anchor_negative covered
+	regex_anchor_positive covered
+	regex_backreference_positive covered
+	regex_named_backreference_negative covered
+	regex_counting_quantifier_negative covered
+	regex_count_positive covered
+	regex_alternation_negative covered
+	regex_lookarounds_positive covered
+	regex_options_negative covered
+	regex_inline_options_negative covered
+	regex_replace_positive covered
+	regex_replace_with_substitution_negative covered
+	regex_split_positive covered
+	regex_matches_positive covered
+sensitivity/string_interpolation: 100.00%
 	simple_string_interpolation_positive covered
 	simple_string_interpolation_with_condition_positive covered
 	simple_string_interpolation_negative covered
@@ -43,75 +43,75 @@ sensitivity/string_interpolation: 90.00%
 	format_method_with_indexes_positive covered
 	string_interpolation_multiline_positive covered
 	string_interpolation_with_string_operations_positive covered
-	string_interpolation_escaping_negative uncovered
-sensitivity/async: 0.00%
-	simple_async_call_negative uncovered
-	simple_async_call_positive uncovered
-sensitivity/slices: 0.00%
-	array_expand_full_positive uncovered
-	array_expand_full_negative uncovered
-	array_expand_prefix_positive uncovered
-	array_expand_prefix_negative uncovered
-	array_expand_suffix_positive uncovered
-	array_expand_suffix_negative uncovered
-	array_expand_inner_positive uncovered
-	array_expand_inner_negative uncovered
-	array_expand_inner_from_end_positive uncovered
-	array_expand_inner_from_end_negative uncovered
-	array_index_from_end_positive uncovered
-	array_index_from_end_negative uncovered
-	array_index_positive uncovered
-	array_index_negative uncovered
-	array_concat_element_positive uncovered
-	array_concat_element_negative uncovered
-	array_concat_array_positive uncovered
-	array_concat_array_negative uncovered
-sensitivity/assignment: 57.14%
-	simple_assignment_positive uncovered
+	string_interpolation_escaping_negative covered
+sensitivity/async: 100.00%
+	simple_async_call_negative covered
+	simple_async_call_positive covered
+sensitivity/slices: 100.00%
+	array_expand_full_positive covered
+	array_expand_full_negative covered
+	array_expand_prefix_positive covered
+	array_expand_prefix_negative covered
+	array_expand_suffix_positive covered
+	array_expand_suffix_negative covered
+	array_expand_inner_positive covered
+	array_expand_inner_negative covered
+	array_expand_inner_from_end_positive covered
+	array_expand_inner_from_end_negative covered
+	array_index_from_end_positive covered
+	array_index_from_end_negative covered
+	array_index_positive covered
+	array_index_negative covered
+	array_concat_element_positive covered
+	array_concat_element_negative covered
+	array_concat_array_positive covered
+	array_concat_array_negative covered
+sensitivity/assignment: 100.00%
+	simple_assignment_positive covered
 	simple_assignment_negative covered
-	assignment_positive uncovered
+	assignment_positive covered
 	assignment_negative covered
 	lazy_eval_positive covered
 	lazy_eval_negative covered
-	new_var_assignment_neutral uncovered
-sensitivity/disposable/disposable: 0.00%
-	disposable_interface_positive uncovered
-	disposable_interface_negative uncovered
-	disposable_interface_value_positive uncovered
+	new_var_assignment_neutral covered
+sensitivity/disposable/disposable: 100.00%
+	disposable_interface_positive covered
+	disposable_interface_negative covered
+	disposable_interface_value_positive covered
 sensitivity/record/record: 100.00%
 	simple_record_positive covered
 	simple_record_negative covered
 	nested_record_positive covered
 	nested_record_negative covered
-sensitivity/pattern-matching/record_patterns: 0.00%
-	simple_record_patterns_positive uncovered
-	simple_record_patterns_negative uncovered
-	simple_record_patterns_nested_positive uncovered
-	simple_record_patterns_nested_negative uncovered
-sensitivity/pattern-matching/instance_matching: 71.43%
+sensitivity/pattern-matching/record_patterns: 100.00%
+	simple_record_patterns_positive covered
+	simple_record_patterns_negative covered
+	simple_record_patterns_nested_positive covered
+	simple_record_patterns_nested_negative covered
+sensitivity/pattern-matching/instance_matching: 100.00%
 	pattern_matching_simple_1_positive covered
 	pattern_matching_simple_1_negative covered
 	pattern_matching_simple_2_negative covered
 	pattern_matching_simple_4_positive covered
 	pattern_matching_simple_4_negative covered
-	pattern_matching_switch_simple_1_positive uncovered
-	pattern_matching_switch_simple_1_negative uncovered
-sensitivity/pattern-matching/matching: 0.00%
-	switch_int_pattern_positive uncovered
-	switch_int_pattern_negative uncovered
-	switch_int_list_pattern_positive uncovered
-	switch_int_list_pattern_negative uncovered
-	switch_point_pattern_positive uncovered
-	switch_point_pattern_negative uncovered
-	multiple_matches_pattern_negative uncovered
-	multiple_matches_pattern_positive uncovered
-	regex_matches_pattern_positive uncovered
-	regex_matches_pattern_negative uncovered
-sensitivity/generics/constrainedClasses: 75.00%
+	pattern_matching_switch_simple_1_positive covered
+	pattern_matching_switch_simple_1_negative covered
+sensitivity/pattern-matching/matching: 100.00%
+	switch_int_pattern_positive covered
+	switch_int_pattern_negative covered
+	switch_int_list_pattern_positive covered
+	switch_int_list_pattern_negative covered
+	switch_point_pattern_positive covered
+	switch_point_pattern_negative covered
+	multiple_matches_pattern_negative covered
+	multiple_matches_pattern_positive covered
+	regex_matches_pattern_positive covered
+	regex_matches_pattern_negative covered
+sensitivity/generics/constrainedClasses: 100.00%
 	get_value_from_generic_class_positive covered
 	get_value_from_generic_class_negative covered
 	get_object_value_from_generic_class_positive covered
-	get_object_value_from_generic_class_negative uncovered
+	get_object_value_from_generic_class_negative covered
 sensitivity/magic/magic: 100.00%
 	magic_method_init_positive covered
 	magic_method_init_negative covered
@@ -174,9 +174,9 @@ sensitivity/field/constructors: 100.00%
 	class_with_array_initialization_neutral covered
 	string_factory_positive covered
 	string_factory_negative covered
-sensitivity/exceptions/rethrow: 0.00%
-	rethrow_negative uncovered
-	rethrow_positive uncovered
+sensitivity/exceptions/rethrow: 100.00%
+	rethrow_negative covered
+	rethrow_positive covered
 sensitivity/exceptions/causeThrows: 100.00%
 	class_not_found_exception_positive covered
 	class_not_found_exception_negative covered
@@ -191,23 +191,23 @@ sensitivity/exceptions/tryCatchFinally: 100.00%
 	try_cath_finally_negative covered
 	try_multi_cath_positive covered
 	try_multi_cath_negative covered
-sensitivity/collections/set: 54.55%
+sensitivity/collections/set: 100.00%
 	set_add_simple_positive covered
 	set_add_simple_negative covered
 	set_remove_simple_positive covered
 	set_remove_simple_negative covered
-	set_contains_positive uncovered
-	set_contains_negative uncovered
+	set_contains_positive covered
+	set_contains_negative covered
 	set_size_positive covered
-	set_size_negative uncovered
-	set_union_negative uncovered
-	set_remove_positive uncovered
+	set_size_negative covered
+	set_union_negative covered
+	set_remove_positive covered
 	set_disjoint_positive covered
-sensitivity/collections/queue: 88.89%
+sensitivity/collections/queue: 100.00%
 	simple_poll_positive covered
 	simple_poll_negative covered
 	simple_peek_negative covered
-	queue_is_empty_1_positive uncovered
+	queue_is_empty_1_positive covered
 	queue_is_empty_1_negative covered
 	queue_poll_negative covered
 	queue_poll_positive covered
@@ -222,19 +222,19 @@ sensitivity/collections/comprehension: 100.00%
 	nested_list_comprehension_positive covered
 	nested_list_comprehension_negative covered
 	list_comprehension_with_zip_positive covered
-sensitivity/collections/list: 50.00%
-	list_set_positive uncovered
-	list_set_negative uncovered
+sensitivity/collections/list: 100.00%
+	list_set_positive covered
+	list_set_negative covered
 	list_add_get_at_zero_index_empty_negative covered
 	list_add_and_remove_positive covered
-	list_to_array_and_get_positive uncovered
-	list_to_array_and_get_negative uncovered
+	list_to_array_and_get_positive covered
+	list_to_array_and_get_negative covered
 	list_union_positive covered
 	list_clear_start_negative covered
-sensitivity/collections/tuples: 89.47%
+sensitivity/collections/tuples: 100.00%
 	empty_tuple_operation_positive covered
 	empty_tuple_operation_negative covered
-	tuple_to_list_conversion_negative uncovered
+	tuple_to_list_conversion_negative covered
 	tuple_to_list_conversion_positive covered
 	tuple_unpacking_positive covered
 	tuple_unpacking_negative covered
@@ -243,7 +243,7 @@ sensitivity/collections/tuples: 89.47%
 	nested_tuples_positive covered
 	nested_tuples_negative covered
 	tuple_iteration_negative covered
-	tuple_iteration_positive uncovered
+	tuple_iteration_positive covered
 	tuple_as_dict_key_positive covered
 	tuple_as_dict_key_negative covered
 	tuple_with_none_positive covered
@@ -251,28 +251,28 @@ sensitivity/collections/tuples: 89.47%
 	swap_values_with_tuple_negative covered
 	tuple_negative_index_access_negative covered
 	tuple_negative_index_access_positive covered
-sensitivity/collections/map: 87.50%
+sensitivity/collections/map: 100.00%
 	map_simple_get_1_positive covered
 	map_simple_get_1_negative covered
 	map_remove_1_negative covered
-	map_remove_1_positive uncovered
+	map_remove_1_positive covered
 	map_merge_1_positive covered
 	map_clear_negative covered
 	map_put_if_absent_negative covered
 	map_merge_2_negative covered
-sensitivity/collections/yield: 50.00%
-	yield_simple_positive uncovered
-	yield_simple_negative uncovered
+sensitivity/collections/yield: 100.00%
+	yield_simple_positive covered
+	yield_simple_negative covered
 	yield_multiple_take_first_positive covered
-	yield_multiple_take_first_negative uncovered
+	yield_multiple_take_first_negative covered
 	yield_multiple_take_last_negative covered
-	yield_multiple_take_last_positive uncovered
+	yield_multiple_take_last_positive covered
 	generator_infinite_positive covered
 	generator_infinite_negative covered
 	generator_yield_from_positive covered
 	generator_yield_from_negative covered
-	yield_break_negative uncovered
-	yield_break_positive uncovered
+	yield_break_negative covered
+	yield_break_positive covered
 sensitivity/duck/typing: 100.00%
 	duck_typing_quack_method_positive covered
 	duck_typing_quack_method_negative covered
@@ -306,41 +306,41 @@ sensitivity/conditional/recursion: 100.00%
 	recursion_simple_negative covered
 	recursion_mutual_positive covered
 	recursion_mutual_negative covered
-sensitivity/conditional/if: 66.67%
-	if_operator_positive uncovered
+sensitivity/conditional/if: 100.00%
+	if_operator_positive covered
 	if_operator_negative covered
 	if_else_operator_neutral covered
 	if_else_if_operator_neutral covered
-	if_operator_with_var_in_condition_positive uncovered
+	if_operator_with_var_in_condition_positive covered
 	if_operator_with_var_in_condition_negative covered
-sensitivity/conditional/for: 5.00%
-	for_operator_positive uncovered
-	for_operator_negative uncovered
-	for_operator_reverse_positive uncovered
-	for_operator_reverse_negative uncovered
-	for_operator_string_array_positive uncovered
-	for_operator_string_array_negative uncovered
-	for_operator_continue_positive uncovered
-	for_operator_continue_negative uncovered
-	for_operator_break_positive uncovered
-	for_operator_break_negative uncovered
-	for_operator_nested_positive uncovered
-	for_operator_nested_negative uncovered
-	for_operator_change_index_positive uncovered
-	for_operator_change_index_negative uncovered
-	for_operator_non_zero_init_positive uncovered
+sensitivity/conditional/for: 100.00%
+	for_operator_positive covered
+	for_operator_negative covered
+	for_operator_reverse_positive covered
+	for_operator_reverse_negative covered
+	for_operator_string_array_positive covered
+	for_operator_string_array_negative covered
+	for_operator_continue_positive covered
+	for_operator_continue_negative covered
+	for_operator_break_positive covered
+	for_operator_break_negative covered
+	for_operator_nested_positive covered
+	for_operator_nested_negative covered
+	for_operator_change_index_positive covered
+	for_operator_change_index_negative covered
+	for_operator_non_zero_init_positive covered
 	for_operator_non_zero_init_negative covered
-	for_operator_strcpy_positive uncovered
-	for_operator_strcpy_negative uncovered
-	for_operator_collection_positive uncovered
-	for_operator_collection_negative uncovered
-sensitivity/conditional/conditionswitch: 0.00%
-	switch_basic_positive uncovered
-	switch_basic_negative uncovered
-	switch_multiple_conditions_positive uncovered
-	switch_multiple_conditions_negative uncovered
-	switch_multiple_case_conditions_positive uncovered
-	switch_multiple_case_conditions_negative uncovered
+	for_operator_strcpy_positive covered
+	for_operator_strcpy_negative covered
+	for_operator_collection_positive covered
+	for_operator_collection_negative covered
+sensitivity/conditional/conditionswitch: 100.00%
+	switch_basic_positive covered
+	switch_basic_negative covered
+	switch_multiple_conditions_positive covered
+	switch_multiple_conditions_negative covered
+	switch_multiple_case_conditions_positive covered
+	switch_multiple_case_conditions_negative covered
 sensitivity/conditional/while: 100.00%
 	while_operator_positive covered
 	while_operator_negative covered
@@ -384,17 +384,17 @@ sensitivity/virtuality/interface: 100.00%
 sensitivity/reflection/reflection: 100.00%
 	simple_reflection_positive covered
 	simple_reflection_negative covered
-sensitivity/operators/operators: 0.00%
-	indexer_one_dim_positive uncovered
-	indexer_one_dim_negative uncovered
-	implicit_to_string_call_positive uncovered
-	implicit_to_string_call_negative uncovered
-	unary_operator_plus_call_positive uncovered
-	unary_operator_minus_call_negative uncovered
-	explicit_binary_operator_plus_call_positive uncovered
-	explicit_binary_operator_minus_call_negative uncovered
-	implicit_binary_operator_plus_call_positive uncovered
-	implicit_binary_operator_minus_call_negative uncovered
+sensitivity/operators/operators: 100.00%
+	indexer_one_dim_positive covered
+	indexer_one_dim_negative covered
+	implicit_to_string_call_positive covered
+	implicit_to_string_call_negative covered
+	unary_operator_plus_call_positive covered
+	unary_operator_minus_call_negative covered
+	explicit_binary_operator_plus_call_positive covered
+	explicit_binary_operator_minus_call_negative covered
+	implicit_binary_operator_plus_call_positive covered
+	implicit_binary_operator_minus_call_negative covered
 sensitivity/dynamic: 100.00%
 sensitivity/defer: 100.00%
 sensitivity/nullable: 100.00%
