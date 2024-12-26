@@ -1,6 +1,6 @@
 {
     "original_file_metadata": {
-        "file_name": "SQLI-login-bypass/models/sqlimodel_kolvt.py",
+        "file_name": "SQLI-login-bypass/models/sqlimodel.py",
         "CWEs": [
             89
         ],
