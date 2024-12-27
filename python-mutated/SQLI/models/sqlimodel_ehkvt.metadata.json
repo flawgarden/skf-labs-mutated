@@ -1,0 +1,60 @@
+{
+    "original_file_metadata": {
+        "file_name": "SQLI/models/sqlimodel.py",
+        "CWEs": [
+            89
+        ],
+        "kind": "fail",
+        "region": {
+            "start_line": 7,
+            "end_line": null,
+            "start_column": null,
+            "end_column": null
+        }
+    },
+    "mutated_file_metadata": {
+        "used_templates": [
+            {
+                "template_file": "sensitivity/collections/queue",
+                "template_name": "two_queues_positive"
+            }
+        ],
+        "used_extensions": [
+            " EXPR_str -> ~[EXPR_str]~[~[EXPR_int]~:~[EXPR_int]~]",
+            "EXPR_str -> ~[EXPR_str]~ + ~[EXPR_str]~",
+            "EXPR_str -> ~[EXPR_str]~[~[EXPR_int]~:~[EXPR_int]~]",
+            "EXPR_str -> ~[EXPR_str]~.replace('/', '.')",
+            "EXPR_int -> ~[EXPR_str]~.find(~[EXPR_str]~, start=~[EXPR_int]~, end=~[EXPR_int]~)",
+            "EXPR_str -> ~[EXPR_str]~.upper()",
+            "EXPR_str -> ~[EXPR_str]~ + ~[EXPR_str]~",
+            "EXPR_str -> \"\""
+        ],
+        "region": {
+            "start_line": 40,
+            "end_line": null,
+            "start_column": null,
+            "end_column": null
+        },
+        "kind": "fail"
+    },
+    "tool_results": [
+        {
+            "tool_name": "Analyzer1",
+            "original_found_CWEs": [
+                89,
+                20
+            ],
+            "mutated_found_CWEs": []
+        },
+        {
+            "tool_name": "Analyzer2",
+            "original_found_CWEs": [
+                89,
+                20
+            ],
+            "mutated_found_CWEs": [
+                89
+            ]
+        }
+    ]
+}

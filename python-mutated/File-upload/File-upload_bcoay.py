@@ -1,22 +1,3 @@
-#Original file region: 19, null, null, null
-#Mutated file region: 63, null, null, null
-#Analyzer3 original results: [20, 22]
-#Analyzer1 original results: [20, 22]
-#Analyzer5 original results: []
-#Analyzer2 original results: []
-#Analyzer4 original results: []
-#-------------
-#Analyzer3 analysis results: []
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: [23, 36, 22, 73, 99]
-#Analyzer2 analysis results: [668]
-#Analyzer4 analysis results: [605]
-#Original file name: File-upload/File-upload.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/map.tmt with name map_put_if_absent_negative
-#Used extensions: MACRO_Create_Map -> map787234 = {}
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

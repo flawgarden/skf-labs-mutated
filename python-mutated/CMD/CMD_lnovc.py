@@ -1,16 +1,3 @@
-#Original file region: 17, null, null, null
-#Mutated file region: 55, null, null, null
-#Analyzer1 original results: [20, 78]
-#Analyzer2 original results: [20, 78]
-#-------------
-#Analyzer1 analysis results: [489, 215]
-#Analyzer2 analysis results: [78, 668, 489]
-#Original file name: CMD/CMD.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/exceptions/tryCatchFinally.tmt with name try_cath_negative
-#Used extensions: EXPR_str -> ~[EXPR_str]~.strip() | EXPR_str -> ~[EXPR_str]~ + ~[EXPR_str]~
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

@@ -1,16 +1,3 @@
-#Original file region: 7, null, null, null
-#Mutated file region: 36, null, null, null
-#Analyzer1 original results: [89, 20]
-#Analyzer2 original results: [89, 20]
-#-------------
-#Analyzer1 analysis results: [396, 584]
-#Analyzer2 analysis results: [89]
-#Original file name: Formula-injection/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/varargs/varargs.tmt with name varargs_get_first_string_negative
-#Used extensions: EXPR_str -> ~[EXPR_str]~.lower() | EXPR_str -> "" | EXPR_str -> ~[EXPR_str]~.strip()
-#Program:
 from typing import TypeVar
 from .Exceptions import *
 from .Concurrency import *

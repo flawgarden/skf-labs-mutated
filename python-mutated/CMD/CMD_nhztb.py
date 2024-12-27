@@ -1,16 +1,3 @@
-#Original file region: 17, null, null, null
-#Mutated file region: 57, null, null, null
-#Analyzer1 original results: [20, 78]
-#Analyzer2 original results: [20, 78]
-#-------------
-#Analyzer1 analysis results: [489, 215]
-#Analyzer2 analysis results: [78, 668, 489]
-#Original file name: CMD/CMD.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/queue.tmt with name queue_poll_negative
-#Used extensions: MACRO_Create_Queue -> queue787231 = collections.deque() | MACRO_Add_CONST_ToQueue -> queue787231.append(~[CONST_~[TYPE@1]~]~) | MACRO_Add_CONST_ToQueue -> queue787231.append(~[CONST_~[TYPE@1]~]~) | MACRO_Add_Fixed_VAR_ToQueue -> queue787231.append(~[VAR_~[TYPE@1]~@1]~)
-#Program:
 import collections
 from .Record import *
 from .Exceptions import *

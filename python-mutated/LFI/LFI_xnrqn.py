@@ -1,18 +1,3 @@
-#Original file region: 18, null, null, null
-#Mutated file region: 52, null, null, null
-#Analyzer3 original results: [20, 22]
-#Analyzer1 original results: [20, 22]
-#Analyzer2 original results: [20, 22]
-#-------------
-#Analyzer3 analysis results: [23]
-#Analyzer1 analysis results: [22, 23, 73, 99, 36]
-#Analyzer2 analysis results: [22, 668]
-#Original file name: LFI/LFI.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/tuples.tmt with name tuple_iteration_negative
-#Used extensions:
-#Program:
 from .Exceptions import *
 from .Concurrency import *
 from .Imports import *

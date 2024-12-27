@@ -1,22 +1,3 @@
-#Original file region: 7, null, null, null
-#Mutated file region: 52, null, null, null
-#Analyzer1 original results: [89, 20]
-#Analyzer2 original results: [89, 20]
-#Analyzer4 original results: [89, 20]
-#Analyzer3 original results: []
-#Analyzer5 original results: []
-#-------------
-#Analyzer3 analysis results: []
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: []
-#Analyzer2 analysis results: [89]
-#Analyzer4 analysis results: [89]
-#Original file name: SQLI-like/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/map.tmt with name map_clear_negative
-#Used extensions: MACRO_Create_Map -> map787234 = {} | MACRO_Add_EXPR_ToMap -> map787234[~[EXPR_~[TYPE@1]~@1]~] = ~[EXPR_~[TYPE@2]~@2]~
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

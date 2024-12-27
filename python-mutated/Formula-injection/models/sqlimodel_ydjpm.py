@@ -1,18 +1,3 @@
-#Original file region: 7, null, null, null
-#Mutated file region: 41, null, null, null
-#Analyzer1 original results: [89, 20]
-#Analyzer2 original results: [89, 20]
-#Analyzer3 original results: []
-#-------------
-#Analyzer3 analysis results: []
-#Analyzer1 analysis results: [396, 89, 584]
-#Analyzer2 analysis results: [89]
-#Original file name: Formula-injection/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/monkey/patching.tmt with name monkey_patch_class_method_negative
-#Used extensions:
-#Program:
 import string
 from string import capwords
 from .Exceptions import *

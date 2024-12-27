@@ -1,16 +1,3 @@
-#Original file region: 16, null, null, null
-#Mutated file region: 52, null, null, null
-#Analyzer1 original results: [20, 78]
-#Analyzer2 original results: [20, 78]
-#-------------
-#Analyzer1 analysis results: [563, 95, 116, 94, 215, 489]
-#Analyzer2 analysis results: [78, 95, 668, 489]
-#Original file name: CMD2/CMD2.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/generics/parametrized.tmt with name get_value_from_generic_class_positive
-#Used extensions:
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

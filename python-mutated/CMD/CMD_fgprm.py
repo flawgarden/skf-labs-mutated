@@ -1,16 +1,3 @@
-#Original file region: 17, null, null, null
-#Mutated file region: 49, null, null, null
-#Analyzer1 original results: [20, 78]
-#Analyzer2 original results: [20, 78]
-#-------------
-#Analyzer1 analysis results: [215, 489]
-#Analyzer2 analysis results: [78, 668, 489]
-#Original file name: CMD/CMD.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/monkey/patching.tmt with name monkey_patch_class_property_negative
-#Used extensions:
-#Program:
 import string
 from string import capwords
 from .Exceptions import *

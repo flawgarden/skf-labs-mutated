@@ -1,16 +1,3 @@
-#Original file region: 7, null, null, null
-#Mutated file region: 45, null, null, null
-#Analyzer1 original results: [89, 20]
-#Analyzer2 original results: [89, 20]
-#-------------
-#Analyzer1 analysis results: [396, 584]
-#Analyzer2 analysis results: [89]
-#Original file name: Formula-injection/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/exceptions/tryCatchFinally.tmt with name try_cath_negative
-#Used extensions: EXPR_str -> ""
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

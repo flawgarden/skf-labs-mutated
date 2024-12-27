@@ -1,16 +1,3 @@
-#Original file region: 7, null, null, null
-#Mutated file region: 45, null, null, null
-#Analyzer1 original results: [89, 20]
-#Analyzer2 original results: [89, 20]
-#-------------
-#Analyzer1 analysis results: [396, 584]
-#Analyzer2 analysis results: [89]
-#Original file name: Formula-injection/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/set.tmt with name set_add_simple_negative
-#Used extensions: MACRO_Create_Set -> set787231 = set() | MACRO_Add_Fixed_CONST_ToSet -> set787231.add(~[CONST_~[TYPE@1]~@1]~)
-#Program:
 import collections
 from .Record import *
 from .Exceptions import *

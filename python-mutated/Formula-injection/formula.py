@@ -7,7 +7,6 @@ from models.sqlimodel_wscqs import *
 from models.sqlimodel_tfdaa import *
 from models.sqlimodel_afpya import *
 from models.sqlimodel_vmynv import *
-from models.sqlimodel_qgcvb import *
 from models.sqlimodel_gneeb import *
 from models.sqlimodel_acpgi import *
 from models.sqlimodel_orfju import *
@@ -72,10 +71,7 @@ from models.sqlimodel_zqlbx import *
 from models.sqlimodel_zqvxp import *
 from models.sqlimodel_lkmor import *
 from models.sqlimodel_pbczh import *
-from models.sqlimodel_yecyq import *
 from models.sqlimodel_bluwv import *
-from models.sqlimodel_blnrh import *
-from models.sqlimodel_ttlkx import *
 from models.sqlimodel_twceg import *
 from models.sqlimodel_brwav import *
 from models.sqlimodel_kxywh import *

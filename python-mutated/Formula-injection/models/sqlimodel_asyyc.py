@@ -1,22 +1,3 @@
-#Original file region: 7, null, null, null
-#Mutated file region: 50, null, null, null
-#Analyzer1 original results: [89, 20]
-#Analyzer2 original results: [89, 20]
-#Analyzer4 original results: [89, 20]
-#Analyzer3 original results: []
-#Analyzer5 original results: []
-#-------------
-#Analyzer3 analysis results: []
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: [396, 584]
-#Analyzer2 analysis results: [89]
-#Analyzer4 analysis results: [89]
-#Original file name: Formula-injection/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/list.tmt with name list_add_and_remove_positive
-#Used extensions: MACRO_Create_List -> list787231 = [] | MACRO_Add_VAR_ToList -> list787231.append(~[VAR_~[TYPE@1]~@1]~)
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

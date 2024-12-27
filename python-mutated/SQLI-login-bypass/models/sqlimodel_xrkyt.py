@@ -1,22 +1,3 @@
-#Original file region: 22, null, null, null
-#Mutated file region: 64, null, null, null
-#Analyzer1 original results: [89, 20]
-#Analyzer2 original results: [89, 20]
-#Analyzer3 original results: []
-#Analyzer5 original results: []
-#Analyzer4 original results: []
-#-------------
-#Analyzer3 analysis results: []
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: [561]
-#Analyzer2 analysis results: [89]
-#Analyzer4 analysis results: []
-#Original file name: SQLI-login-bypass/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/conditional/while.tmt with name while_operator_negative
-#Used extensions:
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

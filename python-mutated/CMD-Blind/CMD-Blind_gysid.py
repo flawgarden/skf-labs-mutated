@@ -1,16 +1,3 @@
-#Original file region: 17, null, null, null
-#Mutated file region: 57, null, null, null
-#Analyzer1 original results: [20, 78]
-#Analyzer2 original results: [20, 78]
-#-------------
-#Analyzer1 analysis results: []
-#Analyzer2 analysis results: [78, 668]
-#Original file name: CMD-Blind/CMD-Blind.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/concurrency/concurrency.tmt with name two_set_threads_in_sequence_positive
-#Used extensions:
-#Program:
 from threading import Thread
 from .Concurrency import *
 from .Imports import *

@@ -1,22 +1,3 @@
-#Original file region: 18, null, null, null
-#Mutated file region: 69, null, null, null
-#Analyzer3 original results: [20, 22]
-#Analyzer1 original results: [20, 22]
-#Analyzer2 original results: [20, 22]
-#Analyzer5 original results: []
-#Analyzer4 original results: []
-#-------------
-#Analyzer3 analysis results: []
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: []
-#Analyzer2 analysis results: [22, 668]
-#Analyzer4 analysis results: [605]
-#Original file name: LFI/LFI.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/lambdas/mutation.tmt with name nested_unary_lambda_mutation_positive
-#Used extensions:
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

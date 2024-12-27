@@ -1,22 +1,3 @@
-#Original file region: 16, null, null, null
-#Mutated file region: 62, null, null, null
-#Analyzer3 original results: [20, 78]
-#Analyzer1 original results: [20, 78]
-#Analyzer2 original results: [20, 78]
-#Analyzer4 original results: [20, 78]
-#Analyzer5 original results: []
-#-------------
-#Analyzer3 analysis results: [78, 489, 94]
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: [563, 95, 94, 116, 88, 78, 489, 215]
-#Analyzer2 analysis results: [78, 95, 668, 489]
-#Analyzer4 analysis results: []
-#Original file name: CMD2/CMD2.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/conditional/switch.tmt with name switch_operator_any_negative
-#Used extensions: MACRO_Any_str -> ~[EXPR_str]~ | EXPR_str -> ~[EXPR_str]~.upper()
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

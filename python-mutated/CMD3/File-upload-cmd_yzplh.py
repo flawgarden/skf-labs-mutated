@@ -1,22 +1,3 @@
-#Original file region: 26, null, null, null
-#Mutated file region: 72, null, null, null
-#Analyzer3 original results: [20, 22]
-#Analyzer1 original results: [20, 22]
-#Analyzer5 original results: []
-#Analyzer2 original results: []
-#Analyzer4 original results: []
-#-------------
-#Analyzer3 analysis results: []
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: [22, 23, 73, 36, 99]
-#Analyzer2 analysis results: [668]
-#Analyzer4 analysis results: [605]
-#Original file name: CMD3/File-upload-cmd.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/set.tmt with name set_remove_simple_positive
-#Used extensions: MACRO_Create_Set -> set787231 = set() | MACRO_Add_Fixed_EXPR_ToSet -> set787231.add(~[EXPR_~[TYPE@1]~@1]~) | MACRO_Add_Fixed_VAR_ToSet -> set787231.add(~[VAR_~[TYPE@1]~@1]~)
-#Program:
 import collections
 from .Record import *
 from .Exceptions import *

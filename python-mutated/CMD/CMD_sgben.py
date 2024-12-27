@@ -1,22 +1,3 @@
-#Original file region: 17, null, null, null
-#Mutated file region: 65, null, null, null
-#Analyzer3 original results: [20, 78]
-#Analyzer1 original results: [20, 78]
-#Analyzer2 original results: [20, 78]
-#Analyzer4 original results: [20, 78]
-#Analyzer5 original results: []
-#-------------
-#Analyzer3 analysis results: [489, 78]
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: [88, 78, 215, 489]
-#Analyzer2 analysis results: [78, 668, 489]
-#Analyzer4 analysis results: []
-#Original file name: CMD/CMD.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/conditional/switch.tmt with name switch_operator_negative
-#Used extensions:
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

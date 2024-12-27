@@ -1,16 +1,3 @@
-#Original file region: 7, null, null, null
-#Mutated file region: 47, null, null, null
-#Analyzer1 original results: [89, 20]
-#Analyzer2 original results: [89, 20]
-#-------------
-#Analyzer1 analysis results: [396, 584]
-#Analyzer2 analysis results: [89]
-#Original file name: Formula-injection/models/sqlimodel.py
-#Original file CWE's: [89]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/collections/queue.tmt with name queue_poll_positive
-#Used extensions: MACRO_Create_Queue -> queue787231 = collections.deque() | MACRO_Add_Fixed_VAR_ToQueue -> queue787231.append(~[VAR_~[TYPE@1]~@1]~) | MACRO_Add_CONST_ToQueue -> queue787231.append(~[CONST_~[TYPE@1]~]~) | MACRO_Add_CONST_ToQueue -> queue787231.append(~[CONST_~[TYPE@1]~]~)
-#Program:
 import collections
 from .Record import *
 from .Exceptions import *

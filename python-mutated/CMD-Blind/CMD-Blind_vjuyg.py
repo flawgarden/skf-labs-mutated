@@ -1,16 +1,3 @@
-#Original file region: 17, null, null, null
-#Mutated file region: 58, null, null, null
-#Analyzer1 original results: [20, 78]
-#Analyzer2 original results: [20, 78]
-#-------------
-#Analyzer1 analysis results: []
-#Analyzer2 analysis results: [78, 668]
-#Original file name: CMD-Blind/CMD-Blind.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/lambdas/mutation.tmt with name unary_lambda_mutation_positive
-#Used extensions:
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

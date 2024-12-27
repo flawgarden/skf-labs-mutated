@@ -1,18 +1,3 @@
-#Original file region: 19, null, null, null
-#Mutated file region: 50, null, null, null
-#Analyzer3 original results: [20, 22]
-#Analyzer1 original results: [20, 22]
-#Analyzer2 original results: []
-#-------------
-#Analyzer3 analysis results: []
-#Analyzer1 analysis results: []
-#Analyzer2 analysis results: [668]
-#Original file name: File-upload/File-upload.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/import/import.tmt with name import_string_module_from_positive
-#Used extensions:
-#Program:
 from .Exceptions import *
 from .Concurrency import *
 from .Imports import *

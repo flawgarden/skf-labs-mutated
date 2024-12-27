@@ -1,22 +1,3 @@
-#Original file region: 9, null, null, null
-#Mutated file region: 54, null, null, null
-#Analyzer3 original results: [20, 22]
-#Analyzer1 original results: [20, 22]
-#Analyzer5 original results: []
-#Analyzer2 original results: []
-#Analyzer4 original results: []
-#-------------
-#Analyzer3 analysis results: [489, 23]
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: [215, 489]
-#Analyzer2 analysis results: [668, 489]
-#Analyzer4 analysis results: [94, 605]
-#Original file name: Untrusted-sources-js/script-provider.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/conditional/if.tmt with name if_else_operator_neutral
-#Used extensions:
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

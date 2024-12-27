@@ -1,0 +1,55 @@
+{
+    "original_file_metadata": {
+        "file_name": "SQLI-login-bypass/models/sqlimodel.py",
+        "CWEs": [
+            89
+        ],
+        "kind": "fail",
+        "region": {
+            "start_line": 22,
+            "end_line": null,
+            "start_column": null,
+            "end_column": null
+        }
+    },
+    "mutated_file_metadata": {
+        "used_templates": [
+            {
+                "template_file": "sensitivity/collections/queue",
+                "template_name": "simple_poll_negative"
+            }
+        ],
+        "used_extensions": [
+            " MACRO_Create_Queue -> queue787231 = collections.deque()",
+            "MACRO_Add_EXPR_ToQueue -> queue787231.append(~[EXPR_~[TYPE@1]~]~)",
+            "EXPR_str -> ~[EXPR_str]~.lower()"
+        ],
+        "region": {
+            "start_line": 49,
+            "end_line": null,
+            "start_column": null,
+            "end_column": null
+        },
+        "kind": "pass"
+    },
+    "tool_results": [
+        {
+            "tool_name": "Analyzer1",
+            "original_found_CWEs": [
+                89,
+                20
+            ],
+            "mutated_found_CWEs": []
+        },
+        {
+            "tool_name": "Analyzer2",
+            "original_found_CWEs": [
+                89,
+                20
+            ],
+            "mutated_found_CWEs": [
+                89
+            ]
+        }
+    ]
+}

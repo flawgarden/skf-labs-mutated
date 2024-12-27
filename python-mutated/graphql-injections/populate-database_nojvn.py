@@ -1,22 +1,3 @@
-#Original file region: 11, null, null, null
-#Mutated file region: 59, null, null, null
-#Analyzer1 original results: [259, 798]
-#Analyzer4 original results: [259, 798]
-#Analyzer3 original results: []
-#Analyzer5 original results: []
-#Analyzer2 original results: []
-#-------------
-#Analyzer3 analysis results: [547]
-#Analyzer5 analysis results: []
-#Analyzer1 analysis results: [798, 321, 259]
-#Analyzer2 analysis results: []
-#Analyzer4 analysis results: []
-#Original file name: graphql-injections/populate-database.py
-#Original file CWE's: [259]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/conditional/switch.tmt with name switch_operator_negative
-#Used extensions:
-#Program:
 from .Record import *
 from .Exceptions import *
 from .GenericClass import *

@@ -1,18 +1,3 @@
-#Original file region: 9, null, null, null
-#Mutated file region: 39, null, null, null
-#Analyzer3 original results: [20, 22]
-#Analyzer1 original results: [20, 22]
-#Analyzer2 original results: []
-#-------------
-#Analyzer3 analysis results: [489]
-#Analyzer1 analysis results: [489, 215]
-#Analyzer2 analysis results: [668, 489]
-#Original file name: Untrusted-sources-js/script-provider.py
-#Original file CWE's: [20]
-#Original file kind: fail
-#Mutation info: Insert template from templates-db/languages/python/sensitivity/none.tmt with name none_in_function_with_two_args_positive
-#Used extensions:
-#Program:
 from .Exceptions import *
 from .Concurrency import *
 from .Imports import *
